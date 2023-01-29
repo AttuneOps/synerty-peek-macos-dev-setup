@@ -1,5 +1,5 @@
 cat <<EOF >> ~/.bash_profile
-export PATH="`echo ~/bin/homebrew/bin`:\$PATH"
+export PATH="`echo ~/opt/homebrew/bin`:\$PATH"
 EOF
 
 source ~/.bash_profile

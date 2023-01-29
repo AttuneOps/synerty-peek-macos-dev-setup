@@ -9,55 +9,55 @@
             "stepKey": "diysigninyourappstorefirstandskipme"
         }, 
         {
-            "order": 20, 
-            "stepKey": "diysetterminalshelltobashandskipme"
-        }, 
-        {
-            "order": 40, 
+            "order": 50, 
             "stepKey": "diymac12installxcodefromappstore"
         }, 
         {
-            "order": 60, 
+            "order": 100, 
+            "stepKey": "setterminalshelltobashandskipme"
+        }, 
+        {
+            "order": 150, 
             "stepKey": "installxcodeandutilities"
         }, 
         {
-            "order": 80, 
+            "order": 200, 
             "stepKey": "createpeekuserfolderalias"
         }, 
         {
-            "order": 100, 
+            "order": 250, 
             "stepKey": "installandsetuphomebrew"
         }, 
         {
-            "order": 120, 
+            "order": 300, 
             "stepKey": "preparebashprofile"
         }, 
         {
-            "order": 140, 
+            "order": 350, 
             "stepKey": "installpython391fromsource"
         }, 
         {
-            "order": 160, 
+            "order": 400, 
             "stepKey": "installpostgressql125withpythonsupportfromsource"
         }, 
         {
-            "order": 180, 
+            "order": 450, 
             "stepKey": "installcmake"
         }, 
         {
-            "order": 200, 
+            "order": 500, 
             "stepKey": "installpostgresqltimescaledb"
         }, 
         {
-            "order": 220, 
+            "order": 550, 
             "stepKey": "installpeekworkerdependencies"
         }, 
         {
-            "order": 240, 
+            "order": 600, 
             "stepKey": "installoracleclient2"
         }, 
         {
-            "order": 260, 
+            "order": 650, 
             "stepKey": "changemaxfileopens"
         }
     ], 

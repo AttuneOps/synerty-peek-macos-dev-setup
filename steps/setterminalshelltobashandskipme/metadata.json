@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "diysetterminalshelltobashandskipme", 
-    "name": "[DIY]Set Terminal shell to Bash and Skip Me", 
+    "key": "setterminalshelltobashandskipme", 
+    "name": "Set Terminal shell to Bash and Skip Me", 
     "osCredKey": "macsshuser", 
     "promptResponses": "password:==={MacSSHUser.password}", 
     "serverKey": "macsshhost", 
