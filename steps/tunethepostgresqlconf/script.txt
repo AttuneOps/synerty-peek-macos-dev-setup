@@ -1,0 +1,1 @@
+sed -i 's/max_connections = 100/max_connections = 200/g' ~/pgdata/12/postgresql.conf

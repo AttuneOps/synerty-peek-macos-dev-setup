@@ -1,0 +1,1 @@
+If you already have a database, you may now need to upgrade the timescale extension.

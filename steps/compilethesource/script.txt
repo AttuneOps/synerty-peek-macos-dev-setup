@@ -1,0 +1,2 @@
+cd cpython-${PEEK_PY_VER}
+make -j`sysctl -n hw.ncpu`

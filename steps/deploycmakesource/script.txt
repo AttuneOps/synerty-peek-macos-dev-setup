@@ -1,0 +1,7 @@
+cd $HOME
+PEEK_CMAKE_VER=3.19.2
+SRC_DIR="$HOME/CMake-${PEEK_CMAKE_VER}"
+wget https://github.com/Kitware/CMake/archive/v${PEEK_CMAKE_VER}.zip
+
+unzip v${PEEK_CMAKE_VER}.zip
+cd ${SRC_DIR}

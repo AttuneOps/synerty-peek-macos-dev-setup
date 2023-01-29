@@ -1,0 +1,1 @@
+Install homebrew to a custom location, adapted from https://docs.brew.sh/Installation#alternative-installs.

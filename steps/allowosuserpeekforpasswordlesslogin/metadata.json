@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "allowosuserpeekforpasswordlesslogin", 
+    "name": "Allow OS user peek for passwordless login", 
+    "osCredKey": "macsshroot", 
+    "serverKey": "macsshhost", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

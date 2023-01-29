@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "setthepostgresqlpeekuserspassword", 
+    "name": "Set the PostgreSQL peek users password", 
+    "osCredKey": "macsshuser", 
+    "serverKey": "macsshhost", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

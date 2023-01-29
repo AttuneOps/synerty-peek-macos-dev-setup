@@ -1,0 +1,6 @@
+{
+    "key": "macsshroot", 
+    "name": "MacSSHRoot", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

@@ -1,0 +1,10 @@
+psql peek <<EOF
+ALTER ROLE peek WITH PASSWORD 'PASSWORD';
+EOF
+
+
+# Set the password as "PASSWORD" for development machines
+# Set it to a secure password from https://xkpasswd.net/s/ for production
+
+# Cleanup traces of the password
+[ ! -e ~/.psql_history ] || rm ~/.psql_history

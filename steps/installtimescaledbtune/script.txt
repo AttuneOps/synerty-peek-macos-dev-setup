@@ -1,0 +1,10 @@
+cd
+
+rm -rf timescaledb-tools || true
+rm timescaledb-tools-0.8.1.tar.lzma || true
+
+wget https://timescalereleases.blob.core.windows.net/homebrew/timescaledb-tools-0.8.1.tar.lzma
+tar xf timescaledb-tools-0.8.1.tar.lzma
+cp timescaledb-tools/timescaledb-tune $HOME/opt/bin
+rm -rf timescaledb-tools
+rm timescaledb-tools-0.8.1.tar.lzma

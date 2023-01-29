@@ -1,0 +1,3 @@
+PGVER=12
+FILE="$HOME/pgdata/${PGVER}/postgresql.conf"
+timescaledb-tune -quiet -yes -conf-path ${FILE} -pg-version ${PGVER}

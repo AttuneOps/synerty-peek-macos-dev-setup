@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "compileandinstallcmake", 
+    "name": "Compile and install CMake", 
+    "osCredKey": "macsshuser", 
+    "serverKey": "macsshhost", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

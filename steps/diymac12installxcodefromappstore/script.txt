@@ -1,0 +1,6 @@
+macVersion=$(sw_vers -productVersion)
+
+if [[ "$macVersion" =~ ^12.* ]]; then
+    echo "Please install Xcode manually"
+    exit 1
+fi

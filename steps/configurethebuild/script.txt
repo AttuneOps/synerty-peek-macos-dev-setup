@@ -1,0 +1,12 @@
+source ~/.bash_profile
+cd cpython-${PEEK_PY_VER}
+
+export LDFLAGS="-L$(brew --prefix)/opt/openssl@1.1/lib -L$(brew --prefix)/opt/zlib/lib"
+export CPPFLAGS="-I$(brew --prefix)/opt/openssl@1.1/include -I$(brew --prefix)/opt/zlib/include"
+export PKG_CONFIG_PATH="$(brew --prefix)/opt/openssl@1.1/lib/pkgconfig:$(brew --prefix)/opt/zlib/lib/pkgconfig"
+
+./configure \
+    --prefix=$HOME/opt \
+    --enable-optimizations \
+    --enable-shared \
+    --with-openssl=$(brew --prefix openssl@1.1)

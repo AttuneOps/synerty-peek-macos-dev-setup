@@ -1,0 +1,46 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "installpython391fromsource", 
+    "links": [
+        {
+            "order": 20, 
+            "stepKey": "deploypythonsourcetarball"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "configurethebuild"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "compilethesource"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "installthebuild"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "cleanupthedownloadandbuilddir"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "makepythonandpipasaglobalcommand"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "testthesetup"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "upgradepipto2101"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "installpipdependenciestopackagedeploypeekmacosrelease"
+        }
+    ], 
+    "name": "Install Python 3.9.1 from source", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

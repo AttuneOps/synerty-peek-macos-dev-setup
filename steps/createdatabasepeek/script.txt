@@ -1,0 +1,2 @@
+createuser peek
+createdb -O peek peek

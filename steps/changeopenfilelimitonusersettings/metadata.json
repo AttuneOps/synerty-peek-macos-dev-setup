@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "changeopenfilelimitonusersettings", 
+    "name": "Change Open File Limit on user settings", 
+    "osCredKey": "macsshuser", 
+    "serverKey": "macsshhost", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -1,0 +1,8 @@
+if [[ ! -d /Applications/Xcode.app ]]; then
+    echo "Please install Xcode manually"
+    exit 1
+else
+    echo "Xcode is installed manually."
+fi
+
+

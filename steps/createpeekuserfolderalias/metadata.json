@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "createpeekuserfolderalias", 
+    "name": "Create Peek User Folder Alias", 
+    "osCredKey": "macsshuser", 
+    "promptResponses": "password:==={MacSSHUser.password}", 
+    "serverKey": "macsshhost", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

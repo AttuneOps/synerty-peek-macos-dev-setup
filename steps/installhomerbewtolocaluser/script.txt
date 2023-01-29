@@ -1,0 +1,8 @@
+if [[ -d ${HOME}/Parallels/homebrew  ]]
+then
+    echo "homebrew already installed"
+    exit 0
+fi
+mkdir -p ~/bin
+cd ~/bin
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew

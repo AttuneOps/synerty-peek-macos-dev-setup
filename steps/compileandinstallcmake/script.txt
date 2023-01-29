@@ -1,0 +1,12 @@
+PEEK_CMAKE_VER=3.19.2
+SRC_DIR="$HOME/CMake-${PEEK_CMAKE_VER}"
+
+cd ${SRC_DIR}
+./configure --prefix=$HOME/opt
+
+make -j`sysctl -n hw.ncpu` install
+
+# Remove the src dir and install file
+cd
+rm -rf ${SRC_DIR}*
+rm v${PEEK_CMAKE_VER}.zip

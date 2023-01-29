@@ -1,0 +1,5 @@
+cd /Users/peek/opt/bin
+rm -f pip python
+ln -s pip3 pip
+ln -s python3 python
+cd

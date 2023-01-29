@@ -1,0 +1,14 @@
+source ~/.bash_profile
+
+pass="/Users/peek/opt/bin/python"
+[ "`which python`" == "$pass" ] && echo "python passed" || (echo "python FAILED" && exit 1)
+
+pass="Python ${PEEK_PY_VER}"
+[ "`python --version`" == "$pass" ] && echo "python version passed" || (echo "python version FAILED" && exit 1)
+
+pass="/Users/peek/opt/bin/pip"
+[ "`which pip`" == "$pass" ] && echo "pip passed" || (echo "pip FAILED" && exit 1)
+
+
+pass="pip 20.2.3 from ${HOME}/opt/lib/python3.9/site-packages/pip (python 3.9)"
+[ "`pip --version`" == "$pass" ] && echo "pip versioni passed" || (echo "pip version FAILED" && exit 1)

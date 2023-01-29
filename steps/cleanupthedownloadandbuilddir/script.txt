@@ -1,0 +1,3 @@
+cd
+rm -rf cpython-${PEEK_PY_VER}
+rm v${PEEK_PY_VER}.zip

@@ -1,0 +1,26 @@
+# attune aborts ssh connection with the ./configure and make
+
+PEEK_PG_VER=12.5
+SRC_DIR="$HOME/postgresql-${PEEK_PG_VER}"
+cd ${SRC_DIR}
+
+
+export CPPFLAGS=" -I$(brew --prefix openssl@1.1)/include "
+export LDFLAGS=" -L$(brew --prefix openssl@1.1)/lib "
+
+echo "configuring source"
+# redirect to null to avaid data longer than 10kb to stdout
+./configure \
+      --disable-debug \
+      --prefix=$HOME/opt \
+      --enable-thread-safety \
+      --with-openssl \
+      --with-python > /dev/null
+
+echo "compiling source"
+make -j`sysctl -n hw.ncpu` > /dev/null
+
+make install-world
+
+# this is required for timescale to compile
+cp ${SRC_DIR}/src/test/isolation/pg_isolation_regress ~/opt/bin

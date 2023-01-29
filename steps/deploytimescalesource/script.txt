@@ -1,0 +1,7 @@
+PEEK_TSDB_VER=1.7.4
+
+cd
+rm -r timescaledb-${PEEK_TSDB_VER} || true
+wget https://github.com/timescale/timescaledb/archive/${PEEK_TSDB_VER}.zip
+unzip ${PEEK_TSDB_VER}.zip
+cd timescaledb-${PEEK_TSDB_VER}

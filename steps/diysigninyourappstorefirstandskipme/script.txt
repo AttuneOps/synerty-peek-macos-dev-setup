@@ -1,0 +1,2 @@
+echo "Sign In your App Store First and Skip Me" >&2
+exit 1

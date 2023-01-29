@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "diysigninyourappstorefirstandskipme", 
+    "name": "[DIY]Sign In Your App Store First and Skip Me", 
+    "osCredKey": "macsshuser", 
+    "serverKey": "macsshhost", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

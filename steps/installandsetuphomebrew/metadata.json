@@ -1,0 +1,38 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "installandsetuphomebrew", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "installhomerbewtolocaluser"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "setuphomebrew"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "installgnused"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "setupgnused"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "installwget"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "installthedevlibstocompilepython"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "installlibgeos"
+        }
+    ], 
+    "name": "Install and Setup Homebrew", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

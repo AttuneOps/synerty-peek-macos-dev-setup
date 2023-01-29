@@ -1,0 +1,7 @@
+##### SET THE RabbitMQ ENVIRONMENT #####
+# Set PATH to include RabbitMQ
+cat <<EOF >> $HOME/.bash_profile
+export PATH="$(brew --prefix)/opt/rabbitmq/sbin:\$PATH"
+EOF
+
+source $HOME/.bash_profile

@@ -1,0 +1,2 @@
+pass="/usr/local/bin/redis-server"
+[ "`which redis-server`" == "$pass" ] && echo "Success" || echo "FAILED"

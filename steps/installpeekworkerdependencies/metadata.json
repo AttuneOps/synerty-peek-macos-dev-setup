@@ -1,0 +1,42 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "installpeekworkerdependencies", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "installredis"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "registerandstartredisasservice"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "testredisservice"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "tuneredis"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "installrabbitmq"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "registerandinstallrabbitmqasaservice"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "makerabbitmqasaglobalcommand"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "enabletherabbitmqmanagementplugins"
+        }
+    ], 
+    "name": "Install Peek Worker Dependencies", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

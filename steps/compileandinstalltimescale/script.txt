@@ -1,0 +1,21 @@
+PEEK_TSDB_VER=1.7.4
+cd timescaledb-${PEEK_TSDB_VER}
+
+export CPPFLAGS=`pg_config --cppflags`
+export LDFLAGS=`pg_config --ldflags`
+export OPENSSL_ROOT_DIR="$(brew --prefix)/opt/openssl@1.1/"
+
+
+# Bootstrap the build system
+./bootstrap -DAPACHE_ONLY=1
+
+# To build the extension
+cd build && make
+
+# To install
+make install
+
+# Cleanup the source code
+cd
+rm -rf ${PEEK_TSDB_VER}.zip
+rm -rf timescaledb-${PEEK_TSDB_VER}

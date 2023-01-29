@@ -1,0 +1,33 @@
+# Make sure there is a LaunchAgents folder
+mkdir -p ~/Library/LaunchAgents/
+
+# Create the plist file
+cat <<EOF > ~/Library/LaunchAgents/postgresql.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>KeepAlive</key>
+  <true/>
+  <key>Label</key>
+  <string>postgresql</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>${HOME}/opt/bin/postgres</string>
+    <string>-D</string>
+    <string>${HOME}/pgdata/12</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>WorkingDirectory</key>
+  <string>${HOME}/opt</string>
+  <key>StandardOutPath</key>
+  <string>${HOME}/pgdata/12/postgres.log</string>
+  <key>StandardErrorPath</key>
+  <string>${HOME}/pgdata/12/postgres.log</string>
+</dict>
+</plist>
+EOF
+
+# Tell launchctl to use the plist
+launchctl load ~/Library/LaunchAgents/postgresql.plist

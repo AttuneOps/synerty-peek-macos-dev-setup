@@ -1,0 +1,4 @@
+#Refresh .bash_profile so initdb can find postgres
+source .bash_profile
+
+initdb --pgdata=$HOME/pgdata/12 --auth-local=trust  --auth-host=md5

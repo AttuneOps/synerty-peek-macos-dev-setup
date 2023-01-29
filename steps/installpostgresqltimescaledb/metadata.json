@@ -1,0 +1,46 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "installpostgresqltimescaledb", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "deploytimescalesource"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "compileandinstalltimescale"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "installtimescaledbtune"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "tunewithtimescaledb"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "makepostgresqlaservice"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "checkthattheservicehasstarted"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "allowosuserpeekforpasswordlesslogin"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "createdatabasepeek"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "setthepostgresqlpeekuserspassword"
+        }
+    ], 
+    "name": "Install PostgreSQL Timescaledb", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

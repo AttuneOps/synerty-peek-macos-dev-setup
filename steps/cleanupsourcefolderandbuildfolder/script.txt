@@ -1,0 +1,6 @@
+PEEK_PG_VER=12.5
+SRC_DIR="$HOME/postgresql-${PEEK_PG_VER}"
+
+# Remove the src dir and install file
+cd
+rm -rf ${SRC_DIR}*

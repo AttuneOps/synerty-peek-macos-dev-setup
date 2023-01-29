@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "agreexcodelicense", 
+    "name": "Agree Xcode License", 
+    "osCredKey": "macsshroot", 
+    "promptResponses": "Password:==={MacSSHUser.password}", 
+    "serverKey": "macsshhost", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

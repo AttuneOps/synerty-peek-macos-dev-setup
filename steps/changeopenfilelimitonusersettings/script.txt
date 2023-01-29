@@ -1,0 +1,4 @@
+cat <<EOF >> ~/.bash_profile
+##### Open File Limit #####
+ulimit -n 65536 65536
+EOF

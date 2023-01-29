@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "installoracleclient2", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "installoracleclient1"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "addoracleclientlibstobashprofile"
+        }
+    ], 
+    "name": "Install Oracle Client (2)", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

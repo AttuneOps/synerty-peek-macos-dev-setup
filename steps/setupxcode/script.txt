@@ -1,0 +1,4 @@
+# Reset the development directory path to put to Xcode
+#  /Applications/Xcode.app/Contents/Developer
+
+sudo xcode-select -r

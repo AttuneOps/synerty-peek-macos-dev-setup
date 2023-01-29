@@ -1,0 +1,11 @@
+mkdir -p ~/oracle
+cd ~/oracle
+wget https://download.oracle.com/otn_software/mac/instantclient/instantclient-basic-macos.zip
+wget https://download.oracle.com/otn_software/mac/instantclient/instantclient-sdk-macos.zip
+
+cd ~/oracle
+unzip instantclient-basic-macos.zip
+unzip instantclient-sdk-macos.zip
+
+mkdir ~/lib
+ln -s ~/oracle/instantclient_19_8/libclntsh.dylib ~/lib/

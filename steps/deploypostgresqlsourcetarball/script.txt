@@ -1,0 +1,11 @@
+PEEK_PG_VER=12.5
+SRC_DIR="$HOME/postgresql-${PEEK_PG_VER}"
+
+# Remove the src dir and install file
+rm -rf ${SRC_DIR} || true
+cd $HOME
+
+wget https://ftp.postgresql.org/pub/source/v${PEEK_PG_VER}/postgresql-${PEEK_PG_VER}.tar.bz2
+tar xjf postgresql-${PEEK_PG_VER}.tar.bz2
+
+cd ${SRC_DIR}

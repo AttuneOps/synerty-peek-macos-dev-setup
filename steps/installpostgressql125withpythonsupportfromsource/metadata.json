@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "installpostgressql125withpythonsupportfromsource", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "deploypostgresqlsourcetarball"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "compileandinstallthebuild"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "cleanupsourcefolderandbuildfolder"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "initialisepostgresqldatabase"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "tunethepostgresqlconf"
+        }
+    ], 
+    "name": "Install PostgresSQL 12.5 with Python support from source", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

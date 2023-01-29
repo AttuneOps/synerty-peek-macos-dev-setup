@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# See http://apple.stackexchange.com/questions/107307/how-can-i-install-the-command-line-tools-completely-from-the-command-line
+
+echo "Installing Xcode CLI tools..."
+touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+softwareupdate --install --recommended --verbose

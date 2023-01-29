@@ -1,0 +1,16 @@
+# ${xyz} is escaped as \${xyz}
+
+cat <<EOF >> ~/.bash_profile
+##### SET THE PEEK ENVIRONMENT #####
+# Setup the variables for PYTHON
+export PEEK_PY_VER="3.9.1"
+export PATH="/Users/peek/opt/bin:\$PATH"
+export PATH="/Users/peek/bin:\$PATH"
+
+# Set the variables for the platform release
+# These are updated by the deploy script
+export PEEK_ENV=""
+export PATH="\${PEEK_ENV}/bin:\$PATH"
+EOF
+
+source ~/.bash_profile
