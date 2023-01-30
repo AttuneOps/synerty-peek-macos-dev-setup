@@ -54,7 +54,7 @@
         }, 
         {
             "order": 600, 
-            "stepKey": "installoracleclient2"
+            "stepKey": "setuporacleclient"
         }, 
         {
             "order": 650, 

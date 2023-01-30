@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "installoracleclient1", 
-    "name": "Install Oracle client (1)", 
+    "key": "installoracleclient", 
+    "name": "Install Oracle Client", 
     "osCredKey": "macsshuser", 
     "serverKey": "macsshhost", 
     "successExitCode": 0, 

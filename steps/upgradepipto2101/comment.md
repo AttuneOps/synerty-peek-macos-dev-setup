@@ -1,1 +1,0 @@
-Some dependencies of Peek cannot be installed with the latest pip. 21.0.1 is known as the latest version compatible with Peek.

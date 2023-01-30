@@ -33,10 +33,6 @@
             "stepKey": "testthesetup"
         }, 
         {
-            "order": 160, 
-            "stepKey": "upgradepipto2101"
-        }, 
-        {
             "order": 180, 
             "stepKey": "installpipdependenciestopackagedeploypeekmacosrelease"
         }
