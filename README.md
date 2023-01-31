@@ -28,9 +28,9 @@ Postgres 12.5
 
 | Name | Type | Script Reference |
 | ---- | ---- | ---------------- |
+| MacSSHHost | Linux/Unix Node | `macsshhost` |
 | MacSSHRoot | Linux/Unix Credential | `macsshroot` |
 | MacSSHUser | Linux/Unix Credential | `macsshuser` |
-| MacSSHHost | Linux/Unix Node | `macsshhost` |
 
 
 

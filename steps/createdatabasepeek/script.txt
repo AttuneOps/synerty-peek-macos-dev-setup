@@ -1,2 +1,2 @@
-createuser peek
+createuser peek -S
 createdb -O peek peek
