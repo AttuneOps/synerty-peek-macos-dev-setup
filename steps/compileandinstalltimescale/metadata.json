@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "659cf3c2-a3e7-41f2-9639-89f15de19ee4", 
     "interpreter": 1, 
     "key": "compileandinstalltimescale", 
     "name": "Compile and install Timescale", 

@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "985e444b-8188-49ed-a41a-630e1621aff0", 
     "isBlueprint": false, 
     "key": "installxcodeandutilities", 
     "links": [

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "6860a6d4-b74d-42bc-bca3-11f3677bd575", 
     "interpreter": 1, 
     "key": "compileandinstallcmake", 
     "name": "Compile and install CMake", 

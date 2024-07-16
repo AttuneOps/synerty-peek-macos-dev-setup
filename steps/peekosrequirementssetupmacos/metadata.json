@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "141188b2-1401-4453-83c0-941e1a89ab89", 
     "isBlueprint": true, 
     "key": "peekosrequirementssetupmacos", 
     "links": [

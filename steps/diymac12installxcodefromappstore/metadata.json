@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "35c5154a-ac52-4cfc-9c09-a032e6281de3", 
     "interpreter": 1, 
     "key": "diymac12installxcodefromappstore", 
     "name": "[DIY Mac12] Install Xcode from App Store", 

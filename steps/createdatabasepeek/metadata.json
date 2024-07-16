@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "fbc5494e-251a-42a8-b2ab-08436abeaa3b", 
     "interpreter": 1, 
     "key": "createdatabasepeek", 
     "name": "Create database peek", 

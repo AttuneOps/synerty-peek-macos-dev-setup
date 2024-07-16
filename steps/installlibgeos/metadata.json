@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "b3d5369c-6fff-4fbd-9a6c-14a119274a87", 
     "interpreter": 1, 
     "key": "installlibgeos", 
     "name": "Install libgeos", 

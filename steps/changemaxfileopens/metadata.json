@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "5a0115ea-1191-4fb3-8b14-fc4a5c5a1b4b", 
     "isBlueprint": false, 
     "key": "changemaxfileopens", 
     "links": [

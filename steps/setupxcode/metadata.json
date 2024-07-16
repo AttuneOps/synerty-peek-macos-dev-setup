@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "ce68d827-71c4-4031-960e-ae62c2d999a7", 
     "interpreter": 1, 
     "key": "setupxcode", 
     "name": "Setup Xcode", 

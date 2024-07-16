@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "46d6e705-e351-4880-b737-4a204dc3082f", 
     "isBlueprint": false, 
     "key": "setuporacleclient", 
     "links": [

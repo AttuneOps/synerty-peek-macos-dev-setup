@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "809e502e-8ef9-4cb5-851c-dc89a1f8e607", 
     "interpreter": 1, 
     "key": "registerandinstallrabbitmqasaservice", 
     "name": "Register and install RabbitMQ as a service", 

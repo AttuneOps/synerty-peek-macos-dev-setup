@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "d4720776-8079-42b1-a989-21c83da6c1dc", 
     "interpreter": 1, 
     "key": "tuneredis", 
     "name": "Tune Redis", 

@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "684e6c06-9db9-4a9f-b9ac-57e7b846dd26", 
     "isBlueprint": false, 
     "key": "installpython391fromsource", 
     "links": [

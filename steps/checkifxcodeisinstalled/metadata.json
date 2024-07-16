@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "e57f5ba4-a8e3-4417-919b-e7032ee0270e", 
     "interpreter": 1, 
     "key": "checkifxcodeisinstalled", 
     "name": "Check if Xcode is installed", 

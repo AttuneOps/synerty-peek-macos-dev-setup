@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "cd8376fc-b6db-4fd0-83d2-58b129ead011", 
     "isBlueprint": false, 
     "key": "installpeekworkerdependencies", 
     "links": [

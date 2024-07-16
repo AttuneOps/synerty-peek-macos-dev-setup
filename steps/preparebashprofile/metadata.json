@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "4af61118-872d-4603-8ebe-b2c3355f1d8d", 
     "interpreter": 1, 
     "key": "preparebashprofile", 
     "name": "Prepare .bash_profile", 

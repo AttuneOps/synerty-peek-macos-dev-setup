@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "2906405b-46cd-48b3-8cf0-787459860989", 
     "isBlueprint": false, 
     "key": "installandsetuphomebrew", 
     "links": [

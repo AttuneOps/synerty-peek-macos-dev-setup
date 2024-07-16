@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "38eb4623-c417-4d82-960a-1dc2cd1bea81", 
     "interpreter": 1, 
     "key": "compilethesource", 
     "name": "Compile the source", 

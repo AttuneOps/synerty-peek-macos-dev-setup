@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "43110d2e-4e77-4e15-b736-d65e01afd30e", 
     "interpreter": 1, 
     "key": "agreexcodelicense", 
     "name": "Agree Xcode License", 

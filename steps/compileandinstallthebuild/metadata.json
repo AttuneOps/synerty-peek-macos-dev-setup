@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "6cdc5166-3c31-4e0f-823b-2765ea374c57", 
     "interpreter": 1, 
     "key": "compileandinstallthebuild", 
     "name": "Compile and install the build", 

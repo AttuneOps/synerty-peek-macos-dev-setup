@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "70d59dbe-ec57-4c77-8e77-805d372895ef", 
     "interpreter": 1, 
     "key": "setthepostgresqlpeekuserspassword", 
     "name": "Set the PostgreSQL peek users password", 

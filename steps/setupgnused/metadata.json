@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "df690e78-3d62-46cf-8911-8e0235536885", 
     "interpreter": 1, 
     "key": "setupgnused", 
     "name": "Setup gnu-sed", 

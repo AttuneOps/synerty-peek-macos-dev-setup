@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "d5df87fe-bdea-4749-a793-e4f9325d452d", 
     "interpreter": 1, 
     "key": "installxcodecommandlinetools", 
     "name": "Install Xcode Command Line Tools", 

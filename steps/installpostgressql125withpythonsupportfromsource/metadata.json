@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "bd9516d8-d311-460b-b3fe-cf3142a88999", 
     "isBlueprint": false, 
     "key": "installpostgressql125withpythonsupportfromsource", 
     "links": [

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "e1fdc3ce-5f70-4c0c-90a1-a058f5a8c1c0", 
     "interpreter": 1, 
     "key": "makepostgresqlaservice", 
     "name": "Make PostgreSQL a service", 

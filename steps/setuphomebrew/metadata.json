@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "3fd3368a-0fe5-477f-bea9-8c28fdf3a9d0", 
     "interpreter": 1, 
     "key": "setuphomebrew", 
     "name": "Setup Homebrew", 

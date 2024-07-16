@@ -1,68 +1,106 @@
 
+
+
+
+[![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://doc.servertribe.com)
+[![Discord](https://img.shields.io/discord/844971127703994369)](http://discord.servertribe.com)
+[![Docs](https://img.shields.io/badge/videos-watch-brightgreen.svg)](https://www.youtube.com/@servertribe)
+[![Generic badge](https://img.shields.io/badge/download-latest-brightgreen.svg)](https://www.servertribe.com/community-edition/)
+
 # Setup Peek Development 2
 
 
 
 
-## Project Blueprints
+
+
+# Attune
+
+[Attune](https://www.servertribe.com/)
+automates and orchestrates processes to streamline deployments, scaling,
+migrations, and management of your systems. The Attune platform is building a
+community of sharable automated and orchestrated processes.
+
+You can leverage the publicly available orchestrated blueprints to increase
+your productivity, and accelerate the delivery of your projects. You can
+open-source your own work and improve existing community orchestrated projects.
+
+## Get Started with Attune, Download NOW!
+
+The **Attune Community Edition** can be
+[downloaded](https://www.servertribe.com/comunity-edition/)
+for free from our
+[ServerTribe website](https://www.servertribe.com/comunity-edition/).
+You can learn more about Attune through
+[ServerTribe's YouTube Channel](https://www.youtube.com/@servertribe).
+
+
+
+
+
+
+
+# Clone this Project
+
+To clone this project into your own instance of Attune, follow the
+[Clone a GIT Project How To Instructions](https://servertribe-attune.readthedocs.io/en/latest/howto/design_workspace/clone_project.html).
+
+
+
+
+## Blueprints
+
+This Project contains the following Blueprints.
+
 
 
 ### Peek OS Requirements Setup MacOS
 
-```markdown
-This section describes how to perform the setup for macOS (previously OSX).
-
-This Installation Guide contains specific Mac 11.2.1 Big Sur operating system requirements for the configuring of synerty-peek.
-
-Xcode (from the app store)
-Homebrew
-Python 3.9.1
-Postgres 12.5
-```
 
 
 
 
-## Project Parameters
+## Parameters
 
 
-| Name | Type | Script Reference |
-| ---- | ---- | ---------------- |
-| MacSSHHost | Linux/Unix Node | `macsshhost` |
-| MacSSHRoot | Linux/Unix Credential | `macsshroot` |
-| MacSSHUser | Linux/Unix Credential | `macsshuser` |
-
-
-
-
-## Project Files
-
-
-| Name | Type |
-| ---- | ---- |
+| Name | Type | Script Reference | Comment |
+| ---- | ---- | ---------------- | ------- |
+| MacSSHHost | Linux/Unix Node | `macsshhost` |  |
+| MacSSHRoot | Linux/Unix Credential | `macsshroot` |  |
+| MacSSHUser | Linux/Unix Credential | `macsshuser` |  |
 
 
 
 
-# ServerTribe
+## Files
 
-*ServerTribe’s mission* is to provide the community access to intuitive and
-flexible open-source IT automated and orchestrated SysOps processes.
-
-This is an *Attune Project* that contains IT automated and orchestrated
-processes.
-
-Attune is your flexible IT Automation & Orchestration solution, a
-self-documenting central source of reusable proven processes, files and
-backups to build and maintain your IT/OT infrastructure. Attune can be
-configured to perform any process or task that a System Administrator or
-Database Administrator would perform through a terminal.
-
-The *Attune Community Edition* can be
-[downloaded for free](https://www.servertribe.com/comunity-edition/)
-from our [ServerTribe website](https://www.servertribe.com/). You can learn
-more about Attune through [ServerTribe's YouTube Channel](https://www.youtube
-.com/channel/UCLRvZajNQXfQPJnYFdeXZ3w).
+| Name | Type | Comment |
+| ---- | ---- | ------- |
 
 
-Thank you.
+
+
+
+
+# Contribute to this Project
+
+**The collective power of a community of talented individuals working in
+concert delivers not only more ideas, but quicker development and
+troubleshooting when issues arise.**
+
+If you’d like to contribute and help improve these projects, please fork our
+repository, commit your changes in Attune, push you changes, and create a
+pull request.
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-pull-request-01.png" alt="pull request"/>
+
+---
+
+Please feel free to raise any issues or questions you have.
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-02.png" alt="create an issue"/>
+
+
+---
+
+**Thank you**

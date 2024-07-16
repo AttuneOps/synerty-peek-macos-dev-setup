@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "dabf0fb6-5335-41eb-b382-56ed55c382aa", 
     "interpreter": 1, 
     "key": "cleanupthedownloadandbuilddir", 
     "name": "Cleanup the download and build dir", 

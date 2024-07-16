@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "c86dd631-f38f-4395-890f-c9938fa9bff1", 
     "interpreter": 1, 
     "key": "installoracleclient", 
     "name": "Install Oracle Client", 

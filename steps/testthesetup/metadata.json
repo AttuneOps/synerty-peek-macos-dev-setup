@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "a2f70153-dcb8-4257-9356-c063592c60d3", 
     "interpreter": 1, 
     "key": "testthesetup", 
     "name": "Test the setup", 

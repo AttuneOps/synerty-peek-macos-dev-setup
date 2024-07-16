@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "31445cd5-5d73-47fe-bfc4-54b9f9cf8c6d", 
     "interpreter": 1, 
     "key": "deploycmakesource", 
     "name": "Deploy CMake source", 

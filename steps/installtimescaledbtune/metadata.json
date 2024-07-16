@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "4d2e9354-2963-41a8-931e-7289816c3aef", 
     "interpreter": 1, 
     "key": "installtimescaledbtune", 
     "name": "Install timescaledb-tune", 

@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "0102d419-528a-48a1-bfb7-68371824e136", 
     "isBlueprint": false, 
     "key": "installcmake", 
     "links": [

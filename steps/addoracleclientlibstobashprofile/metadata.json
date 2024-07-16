@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "c96e6511-bddc-4e29-b1fd-807c9055dd48", 
     "interpreter": 1, 
     "key": "addoracleclientlibstobashprofile", 
     "name": "Add oracle client libs to .bash_profile", 

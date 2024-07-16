@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "f7dc64e8-63f3-4827-ad26-705a3460aba6", 
     "interpreter": 1, 
     "key": "diysigninyourappstorefirstandskipme", 
     "name": "[DIY]Sign In Your App Store First and Skip Me", 

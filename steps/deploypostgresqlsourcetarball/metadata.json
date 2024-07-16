@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "9ce09e54-a904-487b-b0c1-43d95e548eb1", 
     "interpreter": 1, 
     "key": "deploypostgresqlsourcetarball", 
     "name": "Deploy PostgreSQL source tarball", 

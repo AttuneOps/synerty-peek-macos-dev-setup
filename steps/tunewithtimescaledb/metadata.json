@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "d415e3d3-0fb0-4ae1-904b-44975fc6aef5", 
     "interpreter": 1, 
     "key": "tunewithtimescaledb", 
     "name": "Tune with Timescaledb", 

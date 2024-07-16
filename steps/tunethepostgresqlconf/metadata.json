@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "6b04d8c0-97d1-41dd-ba47-bca8f1ae7d34", 
     "interpreter": 1, 
     "key": "tunethepostgresqlconf", 
     "name": "Tune the postgresql.conf", 

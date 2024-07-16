@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "fa13f35d-a97e-477c-b42e-9702a243d78b", 
     "interpreter": 1, 
     "key": "installhomerbewtolocaluser", 
     "name": "Install Homerbew to local user", 

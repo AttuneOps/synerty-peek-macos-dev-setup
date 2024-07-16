@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "2c5fb4a5-8d51-45f6-b60c-3f5d9cf9b39a", 
     "interpreter": 1, 
     "key": "testredisservice", 
     "name": "Test Redis service", 

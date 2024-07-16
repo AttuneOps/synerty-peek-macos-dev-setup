@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "ee618536-77bf-489d-b982-ffe165c41997", 
     "interpreter": 1, 
     "key": "cleanupsourcefolderandbuildfolder", 
     "name": "Clean up source folder and build folder", 

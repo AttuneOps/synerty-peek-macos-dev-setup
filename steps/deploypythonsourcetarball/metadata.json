@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "fa614599-afbd-4d9b-b264-2bf4092ebe82", 
     "interpreter": 1, 
     "key": "deploypythonsourcetarball", 
     "name": "Deploy Python source tarball", 

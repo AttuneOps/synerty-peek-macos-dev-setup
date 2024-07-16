@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "6ded683d-3033-4537-9a32-917f38f72ae3", 
     "interpreter": 1, 
     "key": "allowosuserpeekforpasswordlesslogin", 
     "name": "Allow OS user peek for passwordless login", 

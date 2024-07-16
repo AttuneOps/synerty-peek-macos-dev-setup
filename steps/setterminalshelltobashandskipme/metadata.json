@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "e4037581-6be6-4d4c-88b4-776f0d81ed20", 
     "interpreter": 1, 
     "key": "setterminalshelltobashandskipme", 
     "name": "Set Terminal shell to Bash and Skip Me", 

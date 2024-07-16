@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "d2cf7e8b-3cef-497f-abdf-6fb547118593", 
     "interpreter": 1, 
     "key": "installthedevlibstocompilepython", 
     "name": "Install the dev libs to compile Python", 

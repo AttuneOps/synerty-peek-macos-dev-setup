@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "6ae2eca1-c83f-4726-bf59-b69d006fd315", 
     "interpreter": 1, 
     "key": "makerabbitmqasaglobalcommand", 
     "name": "Make RabbitMQ as a global command", 

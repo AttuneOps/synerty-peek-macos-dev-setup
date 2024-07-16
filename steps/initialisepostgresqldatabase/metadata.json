@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "f2664e9c-adf9-4b9f-9d93-36c0ecaee6ad", 
     "interpreter": 1, 
     "key": "initialisepostgresqldatabase", 
     "name": "Initialise PostgreSQL database", 

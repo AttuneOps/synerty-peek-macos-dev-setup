@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "3a953bdd-11a2-4ea9-9c73-8abdbb5612e8", 
     "interpreter": 1, 
     "key": "installredis", 
     "name": "Install Redis", 

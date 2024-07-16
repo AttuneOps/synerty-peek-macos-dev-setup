@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "87b91466-4e35-447a-9e89-8b0ed7df721a", 
     "interpreter": 1, 
     "key": "makepythonandpipasaglobalcommand", 
     "name": "Make python and pip as a global command", 

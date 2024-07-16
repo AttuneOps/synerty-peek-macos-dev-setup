@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "3ac16908-f47e-476d-bd6f-2bb4d739ea4e", 
     "interpreter": 1, 
     "key": "installrabbitmq", 
     "name": "Install RabbitMQ", 

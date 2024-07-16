@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "578b89fd-6e7f-47a7-83b7-fc6a0113413f", 
     "interpreter": 1, 
     "key": "installgnused", 
     "name": "Install gnu-sed", 

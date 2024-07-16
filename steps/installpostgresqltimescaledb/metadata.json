@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "313b26c5-04a6-4f94-966e-7a0eb887eff3", 
     "isBlueprint": false, 
     "key": "installpostgresqltimescaledb", 
     "links": [

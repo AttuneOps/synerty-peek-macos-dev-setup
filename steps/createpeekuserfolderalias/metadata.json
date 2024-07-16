@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "a0c65d9c-5c95-4872-b1c7-3be0a610adce", 
     "interpreter": 1, 
     "key": "createpeekuserfolderalias", 
     "name": "Create Peek User Folder Alias", 
